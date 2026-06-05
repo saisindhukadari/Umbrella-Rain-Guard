@@ -20,10 +20,15 @@ It combines clean UI design, weather forecasting APIs, and smart decision logic 
   - Rain > 60% → "Take an umbrella ☂️"
   - Rain < 60% → "No umbrella needed 🌤️"
 
-### 📊 6-Day Forecast System
-- 6-day weather outlook
-- Daily temperature + weather condition
-- Rain probability prediction for each day
+### 🌦️ 5-Day Weather Forecast
+- Displays 5-day weather outlook
+- Shows temperature, weather condition, and rain probability
+- Simple and clean card-based UI
+
+### 📊 5-Day Rain Prediction Graph
+- Interactive line chart using Recharts
+- Visualizes rain probability trends over 5 days
+- Hover tooltips for better insights
 
 ### 🎨 Modern UI/UX
 - Clean, responsive design
