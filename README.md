@@ -1,16 +1,63 @@
-# React + Vite
+# ☂️ Umbrella Rain Guard – Smart AI Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Umbrella Rain Guard is a modern AI-powered weather application that helps users decide whether they need an umbrella based on real-time weather data and intelligent rain prediction.
 
-Currently, two official plugins are available:
+It combines clean UI design, weather forecasting APIs, and smart decision logic to deliver a simple but powerful user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🌦️ Real-Time Weather Data
+- Live weather updates using OpenWeather API
+- Search weather by city name
+- Displays temperature, humidity, wind speed, and weather conditions
 
-## Expanding the ESLint configuration
+### ☂️ Smart Umbrella AI Logic
+- AI-based rain decision system
+- Suggests umbrella usage based on rain probability
+- Example:
+  - Rain > 60% → "Take an umbrella ☂️"
+  - Rain < 60% → "No umbrella needed 🌤️"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 6-Day Forecast System
+- 6-day weather outlook
+- Daily temperature + weather condition
+- Rain probability prediction for each day
+
+### 🎨 Modern UI/UX
+- Clean, responsive design
+- Glassmorphism weather cards
+- Rain animations and smooth transitions
+- Mobile-friendly layout
+
+### 💬 Inspirational Experience
+- Motivational weather quotes
+- Emotional and aesthetic rainy-day UI experience
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- JavaScript (ES6+)
+- CSS / Tailwind CSS (optional)
+- OpenWeather API
+- Axios / Fetch API
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/umbrella-rain-guard.git
+
+# Move into project directory
+cd umbrella-rain-guard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
