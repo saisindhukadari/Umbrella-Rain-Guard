@@ -56,7 +56,7 @@ It combines clean UI design, weather forecasting APIs, and smart decision logic 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/umbrella-rain-guard.git
+git clone https://github.com/saisindhukadari/umbrella-rain-guard.git
 
 # Move into project directory
 cd umbrella-rain-guard
